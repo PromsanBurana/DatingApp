@@ -69,7 +69,7 @@ namespace API.Controllers
 
             if(user.Photos.Count == 0)
             {
-                photo.IsMain = false;
+                photo.IsMain = true;
             }
 
             user.Photos.Add(photo);
